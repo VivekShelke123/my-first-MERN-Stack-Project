@@ -1,0 +1,35 @@
+.imga
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contain{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:auto;
+    width:700px;
+   
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 370px;
+    margin-top: 180px;
+    padding: 10px;
+
+}
+
+.abc
+{
+    
+    padding: 5px;
+    color: white;
+    
+}
+
+

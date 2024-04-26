@@ -1,0 +1,17 @@
+.plan-container{
+    margin: 1%;
+}
+
+.Ticket-table{
+    background-color: #ddd4d4;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px 25px;
+    padding: 1%;
+    width: 90%;
+    
+}
+
+.tic-label{
+    font-weight: 650;
+}

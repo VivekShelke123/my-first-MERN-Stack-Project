@@ -1,0 +1,34 @@
+.align{
+    text-align: center;
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+
+.three1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.two{
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+
+.one{
+    margin-top: 20px;
+}
+
+.image{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.image1{
+    height: 70px;
+    border-radius: 50%;
+}
+
+.image2{
+        height: 70px;
+        border-radius: 50%;
+        margin-top: 20px;
+}

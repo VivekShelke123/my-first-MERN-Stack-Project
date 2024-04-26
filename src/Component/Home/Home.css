@@ -1,0 +1,7 @@
+.form-class{
+    position: absolute;
+    width: 1050px;
+    z-index: 1;
+    top: 120px;
+    left: 50px;
+  }

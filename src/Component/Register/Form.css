@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cont
+{
+    width: 500px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    backdrop-filter: blur(20px);
+
+}
+
+.cont h1{
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.cont input
+{
+    position:relative;
+    border: transparent;
+    border: 2px solid white;
+    margin: 10px;
+    width: 60%;
+}
+
+.input  input{ 
+    background: transparent;
+    border-radius: 40px;
+    /* margin-right: 10px;
+    margin-left: 80px; */
+    color: white;
+    padding: 5px;
+    border: transparent;
+    border: 2px solid white;
+    align-self:flex-end ;  
+}
+
+.input input::placeholder{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.input label{
+    margin-left: 20px;
+}
+
+.cont button{
+    width: 100%;
+    height:50px;
+    margin-top: 5px;
+    border-radius:40px;
+
+}
+
+.login-link p{
+    text-align: center;
+    color:white;
+    margin-top: 10px;
+}
+
+/* .wrapper video
+{
+    padding-top: 0px;
+} */
+video
+{
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+    
+}
+
+#inp1{
+    margin-left: 4%;
+}
+
+#inp3{
+    margin-left:10%;
+}
+
+#inp2{
+    margin-left: 4%;
+}
+
+#inp4{
+    margin-left: 3%;
+}
+
+#inp5{
+    margin-left: 5%;
+}

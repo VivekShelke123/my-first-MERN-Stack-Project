@@ -1,0 +1,30 @@
+.navbar
+{
+    background-color:   black;
+   
+}
+
+.brandname
+{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 750px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+/* .brandname Link{
+        text-decoration: none;
+} */
+
+.item
+{
+    margin-right: 10px;
+    color: white !important;
+}
+
+.right
+{
+
+  text-align: right;
+}

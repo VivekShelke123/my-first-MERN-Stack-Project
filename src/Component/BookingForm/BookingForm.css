@@ -1,0 +1,50 @@
+.Ticket-class {
+  border: 2px solid black;
+  border-radius: 15px 15px;
+  width: 95%;
+  overflow: auto;
+  padding: 1%;
+  background-color: #72c98fb4;
+  margin: 1%;
+}
+
+li {
+  display: block;
+}
+
+#id1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+label {
+  font-size: large;
+  color: blueviolet;
+}
+
+.Price-class {
+  display: flex;
+}
+
+.Price-class li {
+  padding-right: 5%;
+}
+
+.butt {
+  position: relative;
+  border: 2px solid;
+  border-radius: 10px 10px;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin: 1%;
+  margin-left: 40%;
+}
+
+.Ticket-class button:hover{
+  background-color: aquamarine;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

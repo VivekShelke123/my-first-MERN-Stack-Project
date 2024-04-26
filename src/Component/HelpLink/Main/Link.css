@@ -1,0 +1,34 @@
+.bb2{
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;
+}
+.worddd{
+    color: black;
+}
+.size{
+    font-size: small;
+}
+
+.p1{
+    margin-left: 100px;
+}
+.h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    font-size: 20;
+    
+}
+.h3{
+    color: black;
+    font-size: 15;
+}
+
+.info-button:hover {
+    box-shadow: 0 0px 10px var(--cfOrange);
+    
+}
+.container
+{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,21 @@
+.align{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.one{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.two{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.three{
+    border-radius: 50%;
+    width: 30px;
+}

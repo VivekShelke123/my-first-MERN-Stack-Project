@@ -1,0 +1,33 @@
+const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+
+
+<Link>
+              <Button variant="primary" onClick={handleShow}>
+                SIGN UP
+              </Button>
+
+              <Modal show={show} onHide={handleClose}>
+                {/* <Modal.Header closeButton>
+                  <Modal.Title>Modal heading</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  Woohoo, you are reading this text in a modal!
+                </Modal.Body> */}
+                <Modal.Footer>
+                  <Link to="/Sign">
+                  <Button variant="secondary" onClick={handleClose}>
+                    SIGN UP
+                  </Button>
+                  </Link>
+                  <Link to="/Login">
+                  <Button variant="primary" onClick={handleClose}>
+                    LOGIN
+                  </Button>
+                  </Link>
+                </Modal.Footer>
+              </Modal>
+            </Link>
